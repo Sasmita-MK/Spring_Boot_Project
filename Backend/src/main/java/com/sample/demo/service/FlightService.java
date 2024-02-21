@@ -31,11 +31,6 @@ public class FlightService {
         {
             return false;
         }else{
-            //toBeUpdated.setFlightId(fb.getFlightId());
-            //toBeUpdated.setFlightName(fb.getFlightName());
-            //toBeUpdated.setFlightOwnedBy(fb.getFlightOwnedBy());
-            //toBeUpdated.setMaximumPrice(fb.getMaximumPrice());
-            //toBeUpdated.setMinimumPrice(fb.getMinimumPrice());
             flightRepo.save(fb);
             return true;
         }
